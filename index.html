@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <head>
+<style>
+h1 {
+color: green;
+text-align: center;
 
+}
 
-<head>
-<body>
-    
-</body>
-<div id="mensaje"> </div>
-<div id="resultado"></div>
-
-<script>
-    var mensaje="bienvenido a certus"
-document.getElementById('mensaje').innerHTML=mensaje;
-var valor1 =10;
-var valor2 =30;
-var suma=valor1*valor2;
-
-document.getElementById('resultado').innerHTML=suma;
-
-  
-</script>
-
-
+</style>
 </head>
 
+<body>
+    
+
+<h1>
+<h1 id="resultado"></h1>
+
+<script>
+
+ var a = 50;
+ var b = 40;
+ var c = 30;
+
+ var suma = a + b + c;
+
+document.getElementById('resultado').innerHTML="la suma total es = "+suma;
+
+
+</script>
 
 </body>
+</head>
+
 
 
 
